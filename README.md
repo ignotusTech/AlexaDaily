@@ -1,3 +1,5 @@
-Ele avisa as datas comemorativas com base no site https://www.datascomemorativas.me/
+# Alexa Dia Comemorativo
 
-OBS: Faltam fazer meses 4,5,6 e 7
+Ele avisa oque é comemorado no dia atual com base no site https://www.datascomemorativas.me/
+
+OBS: Qualquer erro, favor avisar. (ignotus@outlook.com.br)
