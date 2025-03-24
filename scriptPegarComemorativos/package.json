@@ -1,0 +1,14 @@
+{
+  "name": "scriptpegarcomemorativos",
+  "version": "1.0.0",
+  "description": "gerar datos do array para o AlexaDaily",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ignotusTech",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^24.4.0"
+  }
+}
