@@ -1,4 +1,4 @@
-// INICIO DAS DATAS
+// INICIO DAS DATAS (ano 2025) 
 msgData[1.1] = 'Ano-Novo, Dia da Confraternização Universal (1º de janeiro), Dia Mundial da Paz, Início do Janeiro Branco | Saúde Mental (de 1 a 31), Início do Janeiro Roxo | Hanseníase (de 1 a 31)';
 msgData[1.2] = 'São Basílio Magno, Dia do Sanitarista, Dia Mundial do Introvertido, Dia do Confeiteiro';
 msgData[1.3] = 'Dia do Juiz de Menores';

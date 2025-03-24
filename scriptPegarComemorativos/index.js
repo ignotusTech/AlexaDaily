@@ -6,7 +6,9 @@ const meses = [
   "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"
 ];
 
-const ano = 2025;
+let ano = new Date().getFullYear();
+//ano = 2026;
+console.log(`ANO: ${ano}`);
 const baseUrl = "https://www.calendarr.com/brasil/calendario-";
 const urls = meses.map(mes => `${baseUrl}${mes}-${ano}/`);
 
@@ -62,7 +64,7 @@ const pegarDatas = async () => {
   }
 
   // Formata os dados no modelo desejado
-  let output = "// INICIO DAS DATAS\n";
+  let output = `// INICIO DAS DATAS (ANO ${ano}) \n`;
   Object.entries(datas).forEach(([chave, descricoes]) => {
     output += `msgData[${chave}] = '${descricoes.join(", ")}';\n`;
   });
